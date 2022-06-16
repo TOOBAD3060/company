@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="index">
+    <nav id="home" class="nav-menu">
+        <h2 class="head">TOOBAD Technologies</h2>
+        <ul class="nav-lists">
+          <li class="nav-list-item"> <a href= "#home"> Home</a></li>
+            <li class="nav-list-item"> <a href="#about"> About Us</a></li>
+            <li class="nav-list-item"> <a href="#reviews"> Reviews</a></li>
+            <li class="nav-list-item"> <a href="#contact"> Contact Us</a></li>
+        </ul>
+        
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+    </nav>
+<div class="hidden width500">
+<nav id="top">
+    <h2  class="head">TOOBAD Technologies</h2>
+    <ul class="nav-lists">
+        <li class="nav-list-item"> <a href= ".home"> Home</a></li>
+          <li class="nav-list-item"> <a href="#about"> About Us</a></li>
+          <li class="nav-list-item"> <a href="#reviews"> Reviews</a></li>
+          <li class="nav-list-item"> <a href="#contact"> Contact Us</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+</nav>
+</div>
+
+
+    <section  class="first">
+        <article class="title">
+            Web design <br> & <br> development
+        </article>
+       <article class="info">
+        The home of <span class="IT"> Information Technology</span>, <br>
+         we give you the best you can ever think off when it comes to <br> 
+         information 
+        technology all over the country
+    
+        </article>
+    </section>
+    <section id="about" class="second">
+
+        <h2 class="ourWorks">Our Works</h2>
+        <article class="ourWorks">
+            <img src="images/first (3).jpg"  class="works fade" alt="">
+            <img src="images/first (1).jpg" class="works fade"  alt="">
+            <img src="images/2-start-simple.jpg" class="works fade"  alt="">
+        </article>
+    </section>
+      
+    <section id="reviews" class="third">
+        <h1 class="reviews">Our Reviews</h1>
+        <article class="review">
+            <div class="img-container">
+             <img src="images/user-1.png" alt="user-1" id="person-img">
+              </div>
+  
+              <h4 id="author"></h4>
+              <p id="job"></p>
+              <p id="info"></p>
+  
+              <!--Buttons-->
+         <div class="button-container">
+              <button class="prev-btn">
+                  &lt;
+              </button>
+  
+              <button class="next-btn">
+                  &gt;
+              </button>
+         </div>
+         <select></select>
+          <button class="translateBtn">Translate</button>
+         
+        </article>
+    </section>
+
+    <!-- back to top btn -->
+ <a href="#home" class="backToTop"><img src="images/arrow-up.png" width="40px"></a>
+    <!-- join us btn -->
+<a href="pages/signUp.html" class="joinUs">Join us now</a>
+
+<section id="contact" class="fourth">
+    
+    <h2 class="contactUs">Contact Us</h2>
+    <p class="requirement">tell us your requirement </p>
+    <div class="contact">
+      <div class="partone">
+        <form action="#">
+        
+            <input  type="text" class="contact reduce" 
+             placeholder="Name" required >
+
+             <input type="email" id="contactEmail"
+             placeholder="Email" class="contact reduce">
+
+             <textarea  id="contactMessage"
+              placeholder="Your Message"></textarea>
+
+             <button type="submit" id="contactSubmitBtn"
+             class="contactBtn reduce">Submit</button>
+        
+        </form>
+      </div>
+    <div class="parttwo">
+        <pre>
+           <!-- <address> -->
+             <span class="h3"> ADDRESS</span>
+              TOOBAD Technologies Limited
+              Ogun State,Nigeria.
+
+              <span class="h3">PHONE</span>
+              08103944371
+
+              <span class="h3">EMAIL</span>
+              <a class="clickhere" target="_blank" href="mailto:olalerebabatunde2000@gmail.com">Click here</a>
+          <!-- </address> -->
+         </pre> 
+      </div>
+    </div>
+</section>
+
+<footer>
+    <h2 class="footer">TOOBAD Technologies</h2>
+    <article class="footer">&copy; <span class="year"></span></article>
+</footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
