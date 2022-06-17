@@ -424,9 +424,9 @@ span.year{
     nav ul.show-links{
         top: 0;
     }
-    section.first{
+    /* section.first{
         height: 100vh;
-    }
+    } */
 section.first article.title{
     color: wheat;
     text-transform: capitalize;
@@ -533,9 +533,9 @@ div.parttwo{
        text-align: center;
    }
    section.first article.title{
-       font-size: 70px;
+       font-size: 30px;
        color: goldenrod;
-       margin-bottom: 100px;
+       margin-bottom: 50px;
    }
    section.first article.info{
        color: wheat;
@@ -546,7 +546,7 @@ div.parttwo{
 }
 
 textarea{
- left: -15x;
+ left: -15px;
 }
 div.partone{
  left: 40px;
@@ -590,7 +590,8 @@ span.year{
      margin-left: 3.9em;
  }
  textarea{
-     left: 25px;
+     position: relative;
+     left: 30px;
  }
 
  div.partone button{
