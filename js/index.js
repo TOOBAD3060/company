@@ -150,7 +150,8 @@ fetch(apiUrl).then(res=> res.json()).then(data =>{
         const joinUsBtn= document.querySelector(".joinUs");
         const nav=document.querySelector("nav");
         const navHeight = nav.getBoundingClientRect().height;
-        const backToTopBtn= this.document.querySelector(".backToTop")
+        const backToTopBtn= document.querySelector(".backToTop")
+        const width500Top=this.document.querySelector(".width500Top");
 
 if (scrollHeight > navHeight) {
 
@@ -165,9 +166,12 @@ else{
 }
 if (scrollHeight > 300) {
     backToTopBtn.classList.add("show-link")
+    width500Top.classList.add("active")
 }
 else{
+    width500Top.classList.remove("active")
     backToTopBtn.classList.remove("show-link")
+
 
 }
 
@@ -193,6 +197,8 @@ hamburger.addEventListener('click',function(){
 
 
 // hamburger for min-width of 500px
+
+
 const shamburger = document.querySelector("nav#top .hamburger");
 
 shamburger.addEventListener('click',function(){

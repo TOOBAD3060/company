@@ -280,6 +280,9 @@ select option{
 .backToTop{
   display: none;
 }
+.width500Top{
+    display: none;
+}
 .show-link{
     visibility: visible;
 }
@@ -459,7 +462,7 @@ div.parttwo{
 .backToTop{
  font-size: 20px;
  text-decoration: none;
-  bottom: 10rem;
+  bottom: 20rem;
  right: 1rem;
  position: fixed;
   color: #fff;
@@ -556,6 +559,23 @@ div.parttwo{
  font-size: 13.5px;
 }
 
+.backToTop{
+    display: none;
+}
+.width500Top{
+    font-size: 20px;
+    text-decoration: none;
+     bottom: 20rem;
+    right: 1rem;
+    position: fixed;
+     color: #fff;
+     text-transform: uppercase;
+     /* display: block; */
+       }
+.width500Top.active{
+    display: block;
+}
+
 
  footer{
     padding: 0;
@@ -567,18 +587,18 @@ span.year{
     font-size: 20px;
 }
   /* hamburger div styling */
-     .hamburger{
+   nav#top  .hamburger{
         display: block;
         margin: 1em  0;
         cursor: pointer;
     }
-    .hamburger.sactive .bar:nth-child(2){
+    nav#top  .hamburger.sactive .bar:nth-child(2){
         opacity: 0;
     }
-    .hamburger.sactive .bar:nth-child(1){
+    nav#top   .hamburger.sactive .bar:nth-child(1){
         transform: translateY(8px) rotate(45deg);
     }
-    .hamburger.sactive .bar:nth-child(3){
+    nav#top  .hamburger.sactive .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg)
     }
 }
@@ -591,11 +611,11 @@ span.year{
  }
  textarea{
      position: relative;
-     left: 30px;
+     left: 20px;
  }
 
  div.partone button{
-     left: -50px;
+     left: -45px;
  
  }
  div.parttwo{
