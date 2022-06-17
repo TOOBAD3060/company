@@ -545,7 +545,17 @@ div.parttwo{
    }
 
 .next-btn{
-    margin-left: 15px;
+    margin-left: 10px;
+}
+.translateBtn,select{
+    margin: 7px;
+    cursor: pointer;
+    border-radius: 7px;
+    background: white;
+    border: none;
+     color: crimson;
+    padding: 7px 20px;
+    outline: none;
 }
 
 textarea{
@@ -611,11 +621,11 @@ span.year{
  }
  textarea{
      position: relative;
-     left: 20px;
+     left: 15px;
  }
 
  div.partone button{
-     left: -45px;
+     left: -40px;
  
  }
  div.parttwo{
