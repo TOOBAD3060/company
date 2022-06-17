@@ -111,10 +111,11 @@ section.verificationCode{
 /* index styling starts here */
 
 body.index{
-    background-color: crimson;
+    background-color: rgb(100,100,100);
     padding: 0;
     text-align: left;
 }
+
 div.width500{
     display: none;
 }
@@ -133,7 +134,7 @@ nav.nav-menu{
     top: 0;
     left: 0;
     width: 100%;
-    background: goldenrod;
+    background:lightgray ;
  } 
 nav.nav-menu h2.head{
     color: white
@@ -237,7 +238,7 @@ p#info{
 
 .prev-btn,.next-btn{
     padding: 5px;
-    background-color: dimgray;
+    background-color: grey;
     color: #fff;
     font-size: 20px;
     border-radius: 7px;
@@ -295,18 +296,18 @@ select option{
 /* fourth section styling start here */
 
 section.fourth{
-    background-color: sienna
+    background-color: white
 }
 
 h2.contactUs{
            text-align: center;
-           color: white;
+           color: gray;
            padding: 10px;
 }
 p.requirement{
     text-align: center;
     text-transform: capitalize;
-    color: wheat;
+    color: sandybrown;
     font-size: 20px;
 }
 div.contact{
@@ -319,7 +320,7 @@ input.contact{
     width: 100%;
     text-align: center;
     display: block;
-    background-color: gold;
+    /* background-color: ; */
 }
 textarea#contactMessage{
     margin: 1em;
@@ -328,7 +329,7 @@ textarea#contactMessage{
     
 }
 textarea::placeholder{
-    color: gold;
+    /* color: ; */
     text-transform: uppercase;
     font-style: italic;
     font-size: 20px;
@@ -339,7 +340,7 @@ button.contactBtn{
     margin: 0 0 0 2rem;
     text-align: center;
     display: block;
-    background-color: gold;
+    background-color: gray;
 }
 textarea{
     padding: 20px;
@@ -493,6 +494,18 @@ div.parttwo{
 }
 
 @media (max-width:550px) {
+    body.index{
+        background-color: wheat;
+    }
+    div.indexContainer{
+        background-color:rgb(100,100,100);
+        padding: 0;
+        text-align: left;
+        max-width: 95%;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        margin: 0 auto;
+    }
     nav#home{
         display: none;
     }
@@ -513,7 +526,7 @@ div.parttwo{
         left: -100%;
         top: 50px;
         transition: 1s;
-        background: crimson;
+        background: rgb(100,100,100);
     }
 
     nav#top ul.active{
@@ -525,7 +538,7 @@ div.parttwo{
         text-align: center;
     }
     nav ul li:hover{
-        background-color: gold;
+        background-color: lightblue;
     }
     nav ul li a{
         color: white;
@@ -611,6 +624,51 @@ span.year{
     nav#top  .hamburger.sactive .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg)
     }
+
+/* for pages */
+.container{
+    max-width: 300px;
+    min-height: 400px;   
+    border-radius: 10px;
+}
+button#signUp,button#forgotBtn,button#contactSubmitBtn,button#next,button#login,input[type=text],input[type=email],input[type=password]
+,button#verifyBtn{
+    border-radius: 10px;
+    width: 75%;
+    padding: 7px;
+    border: 2px solid lightblue;
+    color: black;
+    outline: none;
+    cursor: pointer;
+}
+button#next,button#login,button#signUp,button#forgotBtn,button#verifyBtn{
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    background: rgb(0, 250,0);
+    margin-bottom: 0.2em;
+    cursor: pointer;
+}
+div.ch{
+    margin-bottom: 1em;
+}
+div.mobile{
+    margin: 0;
+}
+.signupEmail{
+    margin-left: 1.5em;
+}
+.remForgot{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0.5em 0.3em;
+}
+.DsignupHere{
+    font-size: 12px;
+}
+
+
 }
 @media (max-width:450px){
    section.fourth div.contact{

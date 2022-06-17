@@ -100,7 +100,7 @@ const translateBtn= document.querySelector(".translateBtn")
 translateBtn.addEventListener("click",()=>{
     let text=fromText;
    const translateFrom="en-GB" //getting fromSelect tag value
-   const translateTo=selectTag.value; //getting toselect tg value
+   const translateTo=selectTag.value; //getting toselecttag value
     
 
 
