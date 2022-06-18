@@ -25,21 +25,20 @@ let regExp= /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
 function check() {
   if (registeredMail.value.match(regExp)) {
-    inCorrectIcon.classList.remove("active")
+     correctIcon.setAttribute("src","/images/checked.png")
      correctIcon.classList.add("active");
     registeredMail.style.borderColor="green";
     nextBtn.removeAttribute("disabled")
   }
   else if(registeredMail.value==""){
-    inCorrectIcon.classList.remove("active")
     correctIcon.classList.remove("active");
-   registeredMail.style.borderColor="green";
+   registeredMail.style.borderColor="skyblue";
    nextBtn.setAttribute("disabled","disabled")
   }
   else{
     displayEmailValidity("Please input a valid email")
-    correctIcon.classList.remove("active")
-    inCorrectIcon.classList.add("active");
+    correctIcon.setAttribute("src","/images/x-button.png")
+    correctIcon.classList.add("active");
     registeredMail.style.borderColor="red";
      nextBtn.setAttribute("disabled","disabled")
   }
